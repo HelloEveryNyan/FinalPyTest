@@ -1,0 +1,11 @@
+address: "https://test-stand.gb.ru/login"
+LoginPage:
+  username: "//input[@name='user']"
+  password: "//input[@name='password']"
+  submit_button: "//button[@type='submit']"
+  login_data:
+    username: "bububu"
+    password: "b8c832b807"
+
+MainPage:
+  about_button: "//a[text()='About']"
